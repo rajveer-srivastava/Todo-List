@@ -16,6 +16,6 @@ app.listen(port, () => {
 });
 
 mongoose.connect(
-  "mongodb+srv://rajveersrivastava006:rajveersrivastava006@cluster0.hubbpcf.mongodb.net/courses",
+  "mongodb+srv://user:<Password>@cluster0.hubbpcf.mongodb.net/courses",
   { dbName: "courses" }
 );
